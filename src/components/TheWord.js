@@ -20,7 +20,7 @@ const Wrapper = styled.p`
   margin: 0 auto;
   display: flex;
   @media (max-width: 600px) {
-    margin-top: 20px;
+    margin-top: 15px;
   }
 `;
 const Span = styled.span`

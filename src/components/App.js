@@ -169,6 +169,10 @@ const Container = styled.div`
   @media (min-width: 600px) {
     flex-direction: row;
   }
+
+  @media (max-width: 600px) {
+    padding: 10px 0;
+  }
 `;
 const RightColumn = styled.div`
   flex: 1;
