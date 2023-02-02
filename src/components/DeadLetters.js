@@ -23,9 +23,6 @@ const Wrapper = styled.div`
   padding: 20px;
   height: 120px;
   width: 100%;
-  @media (max-width: 600px) {
-    margin-top: 10px;
-  }
 `;
 const List = styled.ul`
   display: flex;

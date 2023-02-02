@@ -49,6 +49,9 @@ const SVG = styled.svg`
   .right-foot {
     /* stroke: transparent; */
   }
+  @media (max-width: 600px) {
+    height: 370px;
+  }
 `;
 
 export default DeadMan;

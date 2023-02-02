@@ -176,9 +176,6 @@ const RightColumn = styled.div`
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-  @media (max-width: 600px) {
-    padding: 5px;
-  }
 `;
 const ModalWrapper = styled.div`
   backdrop-filter: blur(4px);
