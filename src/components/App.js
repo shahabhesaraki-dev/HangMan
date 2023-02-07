@@ -128,7 +128,7 @@ const App = () => {
       {game.started && (
         <>
           <Container>
-            <Deadman />
+            <Deadman deadLetterLength={wrongGuesses.length} />
             <RightColumn>
               <DeadLetters wrongGuess={wrongGuesses} />
               <TheWord word={word} />
