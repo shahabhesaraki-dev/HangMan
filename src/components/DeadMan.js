@@ -56,19 +56,6 @@ const SVG = styled.svg`
   stroke: ${colors.yellow};
   stroke-width: 4px;
   stroke-linecap: round;
-
-  .head,
-  .body,
-  .left-arm,
-  .right-arm,
-  .left-leg,
-  .right-leg,
-  .left-hand,
-  .right-hand,
-  .left-foot,
-  .right-foot {
-    /* stroke: transparent; */
-  }
   @media (max-width: 600px) {
     height: 370px;
   }
